@@ -8,13 +8,27 @@
 # (3, 'c')
 # (4, 'h')
 # (5, 'a')
-city=["Bengaluru","Mysuru","Hubli","Hassan","Manguluru"]
-for i in city:
-    print(i)      
-j=1
-while j<=10:
-    print(j, end=" ")
-    j+=1
-bb="aarcha"
-for k in enumerate(bb):
-    print(k)
+# city=["Bengaluru","Mysuru","Hubli","Hassan","Manguluru"]
+# for i in city:
+#     print(i)      
+# j=1
+# while j<=10:
+#     print(j, end=" ")
+#     j+=1
+# bb="aarcha"
+#  for k in enumerate(bb):
+#    print(k)
+
+#  10/4/2025
+# for index, letter in enumerate(bb): #bb is in 18th line of code
+#     print(letter * (index+1))
+# Using continue in a for loop-> The continue statement is used to  skip the current iteration of the loop and move on to the next one.
+# for i in city:        #city list is in 11th line of code
+#     if i=="Hubli":
+#         continue
+#     print(i)     
+# for else can also be used. the code inside the else block will be executed once the loop finishes, unless the loop is terminated by break stmt.
+for i in range(1,21):
+    for j in range(1,11):
+        print(f"{i}X{j}={i*j}")
+    
