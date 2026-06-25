@@ -8,3 +8,23 @@ if age >= 18:
     print("You are an adult, oh I never knew that lol so yeah you can access this site")
 else:
     print("This website is only for adults. You are a minor. Immediately leave the website for your better mental health")
+# Membership Operator Exercise: Write a Python program that:
+
+# Takes a string as input from the user.
+# Checks if the letter 'a' is in the string (using in).
+# Checks if the string doesn't contain the word "Python" (using not in).
+strr = input("Write something: ")
+print("a" in strr)
+print("Python" not in strr)
+# Bitwise Operator Task: Given two integers, write a Python program that:
+
+# Prints the result of a & b, a | b, and a ^ b.
+# Shifts the bits of a two positions to the left (a << 2).
+# Shifts the bits of b one position to the right (b >> 1).
+bh = 45
+ch = 54
+print(bh & ch) 
+print(bh | ch) 
+print(bh ^ ch) 
+print(bh << 2) 
+print(ch >> 1) 
