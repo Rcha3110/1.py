@@ -51,3 +51,10 @@ print(syy5)
 
 syy1.discard("ple")
 print(syy1)
+
+list = ["chai", "tomato", 45, 45]
+tup = tuple(list)
+see = set(list)
+print(tup)
+print(list)
+print(see)
