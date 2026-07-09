@@ -10,8 +10,8 @@ tot_cost =0
 for cost in foody.values():
     tot_cost+=cost
 print(tot_cost)
-
-
 # List of Squares:
-
 # Create a list of numbers from 1 to 10. Use list comprehension to generate a list of their squares.
+liss = [m for m in range(1,11)]
+lisssq = [sq**2 for sq in liss]
+print(lisssq)
