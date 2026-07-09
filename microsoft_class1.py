@@ -15,3 +15,24 @@ print(tot_cost)
 liss = [m for m in range(1,11)]
 lisssq = [sq**2 for sq in liss]
 print(lisssq)
+# Student Data Task:
+# Create a list of 3 dictionaries, where each dictionary contains the name, age, and marks of a student. Loop through the list and print each student's information.
+student_data = [
+    {"name": "Aarcha", "age": 21, "marks": 23},
+    {"name": "Hemanth", "age": 22, "marks": 83},
+    {"name": "Rhea", "age": 18, "marks": 98},
+]
+for stu in student_data:
+    print(f"Student name:{stu["name"]}")
+    print(f"Student age:{stu["age"]}")
+    print(f"Student marks:{stu["marks"]}")
+    print("-"*20)
+
+# Dictionary Comprehension:
+
+
+# Create a dictionary where the keys are Kannada cities, and the values are their populations. Use dictionary comprehension to filter out cities with populations below 10 lakhs.
+# Nested List Challenge: Write a Python program that takes a list of lists (a 2D list) as input and:
+
+# Prints the entire matrix row by row.
+# Prints the sum of each row in the matrix.
