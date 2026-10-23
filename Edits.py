@@ -16,47 +16,47 @@ print(i)
 # # Write a program that takes your name as input and prints each letter of your name using a for loop.
 name = input("Write your name: ")
 for letter in name:
-    print(letter, end="")
+    print(letter)
 # # Count Vowels in a String:
 # # Write a program that counts how many vowels are in a given string using a for loop.
-# word = input("\n Write a word: ")
-# vovelCount = 0
+word = input("\n Write a word: ")
+vovelCount = 0
 
-# for lett in word:
-#     if lett.lower() == "a":
-#         vovelCount +=1
-#         print(vovelCount)
-#     elif lett.lower() == "e":
-#         vovelCount +=1
-#         print(vovelCount)
-#     elif lett.lower() == "i":
-#         vovelCount +=1
-#         print(vovelCount)
-#     elif lett.lower() == "o":
-#         vovelCount +=1
-#         print(vovelCount)
-#     elif lett.lower() == "u":
-#         vovelCount +=1
-#         print(vovelCount)
-#     # elif lett == "A":
-#     #     vovelCount +=1
-#     #     print(vovelCount)
-#     # elif lett == "E":
-#     #     vovelCount +=1
-#     #     print(vovelCount)
-#     # elif lett == "I":
-#     #     vovelCount +=1
-#     #     print(vovelCount)
-#     # elif lett == "O":
-#     #     vovelCount +=1
-#     #     print(vovelCount)
-#     # elif lett == "U":
-#     #     vovelCount +=1
-#     #     print(vovelCount)
-#     else:
-#         print(f"It's a consonant {lett}")
+for lett in word:
+    if lett.lower() == "a":
+        vovelCount +=1
+        print(vovelCount)
+    elif lett.lower() == "e":
+        vovelCount +=1
+        print(vovelCount)
+    elif lett.lower() == "i":
+        vovelCount +=1
+        print(vovelCount)
+    elif lett.lower() == "o":
+        vovelCount +=1
+        print(vovelCount)
+    elif lett.lower() == "u":
+        vovelCount +=1
+        print(vovelCount)
+    # elif lett == "A":
+    #     vovelCount +=1
+    #     print(vovelCount)
+    # elif lett == "E":
+    #     vovelCount +=1
+    #     print(vovelCount)
+    # elif lett == "I":
+    #     vovelCount +=1
+    #     print(vovelCount)
+    # elif lett == "O":
+    #     vovelCount +=1
+    #     print(vovelCount)
+    # elif lett == "U":
+    #     vovelCount +=1
+    #     print(vovelCount)
+    else:
+        print(f"It's a consonant {lett}")
     
-# print("Total vovels are: ", vovelCount)
+print("Total vovels are: ", vovelCount)
 
 word = input("Write a word: ")
 vowelCount = 0
@@ -65,3 +65,6 @@ for lett in word:
     if lett.lower() in vowels:
         vowelCount +=1
 print(vowelCount)
+
+x= 5
+print (x and 10)

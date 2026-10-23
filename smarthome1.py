@@ -30,7 +30,7 @@ while True:
     i+=1  
     if i>20:
         break
-
+#prgm3
 seats = 8
 is_booked = True
 while is_booked:
@@ -39,7 +39,7 @@ while is_booked:
     if seats == 0:
         print("Sorry, all seats booked!")
         break
-  
+ #prgm 4 
 count = 10
 while True:
     print(count)

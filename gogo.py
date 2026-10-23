@@ -58,3 +58,4 @@ see = set(list)
 print(tup)
 print(list)
 print(see)
+tpu[4]= 99
